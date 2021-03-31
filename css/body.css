@@ -1,0 +1,104 @@
+body {
+    background-color: #333535;
+    padding: 3rem 3rem 0rem 3rem;
+
+}
+
+.card {
+    background-color: #f2eccb;
+}
+
+.card-title {
+    color: #333535;
+    font-family: 'Ultra', serif;
+    font-size: 2rem;
+    
+}
+
+.card-subtitle {
+    font-family: 'Crimson Pro', serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 1.25rem;
+
+}
+
+.card-proj-title {
+    color: #333535;
+    font-family: 'Ultra', serif;
+    font-size: 2rem;
+}
+
+.projects a {
+    text-decoration: none;
+}
+
+.projects h5:hover {
+    text-decoration: underline;
+    color: #7f7f73;
+}
+
+
+.container {
+    display: inline-flexbox;
+    flex-wrap: wrap;
+}
+
+.projects .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.space {
+    padding: 0 0 90% 0
+
+}
+
+.space2 {
+    padding: 0 0 10% 0
+
+}
+
+
+.projects .container .card {
+    margin-bottom: 2rem;
+}
+
+/* .about-me .card .row .col-md-4 {
+    img-responsive;
+} */
+
+.formGroup {
+    margin-bottom: 1rem;
+    
+}
+
+.formSubmit {
+    display: grid;
+    background-color: #f2eccb;
+    height: 44px;
+    width: 100px;
+    margin: auto;
+    vertical-align: middle;
+    font-family: 'Crimson Pro', serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #333535;
+    border-radius: 6px;
+}
+
+.card-link {
+    color: #333535;
+    font-family: "Crimson Pro", serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: .125rem;
+    font-style: italic;
+}
+
+.about-me a:hover {
+    color: #7f7f73;
+    text-decoration: underline;
+
+}

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ultra&display=swap');
+
+h3 {
+    color: #f2eccb;
+    font-family: 'Crimson Pro', serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: .125rem;
+    font-size: 2rem;
+}
+
+.nav-link {
+    font-family: 'Crimson Pro', serif;
+    font-weight: 400;
+    color: #7f7f73;
+    font-size: 1.25rem;
+    letter-spacing: .125rem;
+}
+
+.navbar a:hover {
+    color: #f2eccb;
+}
+
+.navbar-brand {
+    position: relative;
+    padding: 10px;
+}
+
+.navbar {
+    padding-top: 20px;
+    max-width: 400px;
+    float: right;
+    margin-right: 20px;
+    padding: 0 0 90% 0
+
+}
+
+.nav-portfolio {
+    margin-top: 20px;
+    margin-inline-end: 80px;
+    font-family: 'Crimson Pro', serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 3rem;
+    letter-spacing: 1rem;
+    color: #f2eccb;
+}
+
+.logo {
+    text-align: right;
+
+}
+
